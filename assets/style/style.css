@@ -79,3 +79,15 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+
+.fronted{
+  border-radius: 5em;
+  background-color: red;
+  rotate: infinite;
+  scale: 32;
+  transition-duration: 10s;
+}
+
+.design{
+scale: 10;
+}
