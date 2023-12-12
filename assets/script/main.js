@@ -40,4 +40,24 @@ function knopje(e) {
 //3 end
 
 
-//4 
+//4 start 
+
+let dev = document.querySelector('a:nth-of-type(4)')
+
+dev.addEventListener('mousedown', omhoog);
+function omhoog(e) {
+  console.log('dev')
+  dev.classList.toggle('dev')
+}
+
+//4 end
+
+ 
+//5 start
+
+let sprint = document.querySelector('a:nth-of-type(5)')
+ 
+sprint.addEventListener('mouseleave', leave);
+  function leave() {
+  sprint.classList.toggle('sprint')
+}

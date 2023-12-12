@@ -100,3 +100,14 @@ scale: 10;
   transform: matrix(1, 2, -1, 57, 65, 30,);
 
 }
+
+.dev{
+  rotate: 500turn;
+  background-image: radial-gradient(purple, black, orange);
+  transition-duration: 60s;
+}
+
+.sprint{
+  scale: 3;
+  color: blue;
+}
