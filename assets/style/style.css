@@ -111,3 +111,8 @@ scale: 10;
   scale: 3;
   color: blue;
 }
+
+.fix{
+  scale: 5;
+  background-color: #9d7beb;
+}

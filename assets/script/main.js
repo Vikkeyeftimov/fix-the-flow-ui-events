@@ -61,3 +61,17 @@ sprint.addEventListener('mouseleave', leave);
   function leave() {
   sprint.classList.toggle('sprint')
 }
+
+//5 end 
+
+
+//6 start
+
+let fix = document.querySelector('a:nth-of-type(6)')
+
+fix.addEventListener('click', clicker )
+fix.addEventListener('animationend', animation)
+
+function clicker() {
+  fix.classList.toggle('fix')
+}
